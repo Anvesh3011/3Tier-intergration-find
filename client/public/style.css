@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #006769;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  width: 150px;
+  margin: auto;
+  display: inline-block;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #006769;
+  color: #fff;
+}
+
+.dataTable {
+  margin: auto;
+  width: 85%;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.dataTable table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 3px;
+}
+
+.formDiv {
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+form {
+  display: inline-block;
+  padding: 5px;
+}
+form div {
+  margin: 7px;
+}
+
+form label {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+form select {
+  width: 150px;
+
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+}
